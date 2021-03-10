@@ -8,37 +8,57 @@
   </head>
   <body>
     <link rel="stylesheet" href="/portfolio/css/style.css" />
-    <div id="main" class="scroll-container">
-      <section class="section1">
-        <div>
-          <span>Page #1</span>
+    <link rel="stylesheet" href="/portfolio/plugin/jquery-sakura.css" />
+    <header>
+      <div class="nav">
+        <h1>
+          <a href="#"><img src="/portfolio/img/logo.png" alt="" /></a>
+        </h1>
+        <ul class="navTit">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">WebSite</a></li>
+          <li><a href="#">OtherProject</a></li>
+          <li><a href="#">Introduction</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <section class="sectionBox" id="section_01">
+      <div class="mainBoxImg">
+        <a href="#" class="mainBoxImg1">
+          <img src="/portfolio/img/clickbox_01.png" alt="box" />
+        </a>
+        <a href="#" class="mainBoxImg2">
+          <img src="/portfolio/img/clickbox_02.png" alt="box" />
+        </a>
+      </div>
+      <div class="welcomeImg">
+        <img src="/portfolio/img/welcome.png" alt="welcome" />
+        <div class="dethImg">
+          <img src="/portfolio/img/deth.png" alt="" />
         </div>
-      </section>
-      <section class="section2">
-        <div>
-          <span>Page #2</span>
-        </div>
-      </section>
-      <section class="section3">
-        <div>
-          <span>Page #3</span>
-        </div>
-      </section>
-      <section class="section4">
-        <div>
-          <span>Page #4</span>
-        </div>
-      </section>
-      <section class="section5">
-        <div>
-          <span>Page #5</span>
-        </div>
-      </section>
-    </div>
+      </div>
+      <div class="mainTit">
+        <h2>신의주</h2>
+        <p>의 포트폴리오 입니다.</p>
+      </div>
+    </section>
+    <section class="sectionBox" id="section_02"></section>
+    <section class="sectionBox" id="section_03"></section>
+    <section class="sectionBox" id="section_04"></section>
+    <section class="sectionBox" id="section_05"></section>
+    <section class="sectionBox" id="section_06"></section>
+
     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script
-      type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"
-    ></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+      $(window).load(function () {
+        $("body").sakura();
+      });
+    </script>
+    <script src="/portfolio/js/page_scroll.js"></script>
+    <script src="/portfolio/plugin/jquery-sakura.js"></script>
   </body>
 </html>

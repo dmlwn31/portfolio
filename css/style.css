@@ -1,34 +1,48 @@
-.section1 {
-  background-color: #7DBCD4;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500&display=swap');
 
-.section2 {
-  background-color: #98C19F; 
-}
+/* reset */
+html,body{ margin:0; padding:0; width:100%; height:100%; font-family:'Roboto Slab';}
+ul{list-style:none;}
+a{text-decoration:none; color:#000;}
 
-.section3 {
-  background-color:  #A199E2;
-}
 
-.section4 {
-  background-color:  #CC938E;
-}
+/* navigation style */
+.nav{width:100%;height:auto; background:rgba(255,255,255,0.7); display:flex; position:fixed;}
+.nav .navTit{width:100%;  height:auto; display:flex;}
+.nav h1{margin:5px 0 5px 5%; } 
+.nav .navTit{margin-left:15%;  }
+.nav .navTit li{margin-left:100px; font-size:20px; line-height:50px;}
+.nav .navTit li:hover a{ color:rgb(75, 153, 255);}
 
-.section5 {
-  background-color:  #D2C598;
-}
-    
-section div {
-  font-family: 'Open Sans';
-  font-style: normal;
-  text-align: center;
-  position: relative;
-  top: 50%;  
-  transform: translateY(-50%);
-}
+/* section style */
+.sectionBox {width:100%; height:100%;}
 
-span {
-  font-size: 4em;
-  font-style: normal;
-  color: #fff;
-}
+/* section_01 style */
+#section_01{background:#FFF0F5;}
+.mainBoxImg{position:absolute; top:50%;}
+.mainBoxImg a{position:absolute; left:40vw;}
+.mainBoxImg .mainBoxImg2{display:none;}
+.mainBoxImg:hover .mainBoxImg2{display:block;}
+.mainBoxImg:hover .mainBoxImg1{display:none;}
+
+.welcomeImg{position:absolute; top:18%; margin-left:18%; }
+.dethImg{margin-left:43%;}
+
+.mainTit{position:absolute; top:60%; left:10%;}
+
+
+
+/* section_02 style */
+#section_02{background:#CBFF75;}
+
+/* section_03 style */
+#section_03{background:#BEEFFF;}
+
+/* section_04 style */
+#section_04{background:#FAFAD2;}
+
+/* section_05 style */
+#section_05{background:#f6e9ff;}
+
+/* section_06 style */
+#section_06{background:#defff4;}
