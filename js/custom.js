@@ -47,6 +47,7 @@ $(function(){
       $('#mainBoxImg1').hide();
       $('#mainBoxImg2').hide();
       $('#mainBoxImg3').show();
+      $('.tree').show();
   });
 });
 
