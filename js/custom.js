@@ -43,11 +43,14 @@ $(function(){
   $('#mainBoxImg2').click(function(){
       $('.dethImg').show();
       $('.welcomeImg').show(1500);
-      $('.mainTit').show();
       $('#mainBoxImg1').hide();
       $('#mainBoxImg2').hide();
       $('#mainBoxImg3').show();
       $('.tree').show();
-  });
+      setTimeout(function () {
+        
+        $('.mainTit').show(1500);
+    },1000);
+  })
 });
 

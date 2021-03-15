@@ -1,0 +1,28 @@
+포트 폴리오 사이트 페이지 이미지 슬라이드로 바꾸기 
+
+
+ <div class="webBox">
+          <div class="webImg">
+            <div class="overlay"></div>
+            <img src="/portfolio/img/movie.jpg" alt="" />
+            <div class="webTit">
+              <h4>API Project</h4>
+              <p>
+                API를 활용한 영화 모음사이트/ <br />
+                반응형
+              </p>
+            </div>
+            <button
+              type="button"
+              onclick="window.open('http://dmlwn31.dothome.co.kr/movie_api/')"
+             >
+              Web site
+            </button>
+            <button
+              type="button"
+              onclick="window.open('https://github.com/dmlwn31/movie_api')"
+            >
+              Git hub
+            </button>
+          </div>
+        </div>
