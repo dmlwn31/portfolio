@@ -38,7 +38,7 @@ $("#navContact").click(function () {
 
 
 
-//메잊페이지 클릭 이벤트
+//메인페이지 클릭 이벤트
 $(function(){
   $('#mainBoxImg2').click(function(){
       $('.dethImg').show();
@@ -54,3 +54,50 @@ $(function(){
   })
 });
 
+
+
+ 
+// 섹션 3 가로 스크롤
+  $(".portfolioCon").on('mousewheel',function(e){
+
+		var wheelDelta = e.originalEvent.wheelDelta;
+
+		if(wheelDelta > 0){
+
+			console.log("up");
+
+			$(this).scrollLeft(-wheelDelta + $(this).scrollLeft());
+
+		}else{
+
+		console.log("down");
+
+			$(this).scrollLeft(-wheelDelta + $(this).scrollLeft());
+		}
+});
+
+
+
+
+// 세로 스크롤 휠 막기
+$(".portfolioCon").on('scroll touchmove mousewheel', function(e){
+
+  e.preventDefault();
+  
+  e.stopPropagation(); 
+  
+  return false;
+  
+  })
+
+  $(".navCon").click(function(){
+    let index = $(this).index();
+  
+    $(".navCon").removeClass("remove");
+    $(".navCon").eq(index).addClass("remove");
+  
+    
+  });
+  
+
+ 
