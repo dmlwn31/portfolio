@@ -1,69 +1,21 @@
-포트 폴리오 사이트 페이지 이미지 슬라이드로 바꾸기 
+todo
+1포트 폴리오 사이트 페이지 이미지 슬라이드로 바꾸기 
 
 
- <div class="webBox">
-          <div class="webImg">
-            <div class="overlay"></div>
-            <img src="/portfolio/img/movie.jpg" alt="" />
-            <div class="webTit">
-              <h4>API Project</h4>
-              <p>
-                API를 활용한 영화 모음사이트/ <br />
-                반응형
-              </p>
-            </div>
-            <button
-              type="button"
-              onclick="window.open('http://dmlwn31.dothome.co.kr/movie_api/')"
-             >
-              Web site
-            </button>
-            <button
-              type="button"
-              onclick="window.open('https://github.com/dmlwn31/movie_api')"
-            >
-              Git hub
-            </button>
-          </div>
-        </div>
+사이트 설명
+1. 주요 화면
+-참고: gif cam (reference 폴더)
 
+2. 사이트 요약 설명
+- 프론트 앤드 개발부터 서버 사이트 까지 통합한 포괄적 기능
+- 데이터 입력 및 출력, 검색까지 전반적인 백앤드 기능 구현 
+- 어드민 기능으로 입력된 데이트의 검색, 수정 등 전반적인 관리 
 
+3. 사이트 전체 구조
 
-        // 가로스크롤
-moveScrollLeft = function() {
-  var _scrollX = $('.portfolioCon').scrollLeft();
-  $('.portfolioCon').scrollLeft(_scrollX + 500);
-};
+4. 사용 언어  
+- 각 언어별 사용률
 
+5. 사용 프레임워크 및 플러그인
 
-
- <section class="sectionBox section3Box" id="section_03">
-      <div class="portfolioTit">
-        <h3>PORTFOLIO</h3>
-      </div>  
-      <div class="frontBtn" onclick="moveScrollLeft()"><img src="/portfolio/img/front.png" alt=""></div>
- 
-        <div class="portfolioCon">
-          <div class="Portfolioscroll">
-            <div class="portfolioBox">
-              <div class="webImg">
-                <img src="/portfolio/img/gold.png" alt="" />
-              </div>
-              <div class="webConBox">
-                <div class="webTit">
-                  <ul class="webCon">DB-PROJECT</ul>
-                  <li>php, css, jquery, sql 언어 사용</li>
-                  <li>데이터 베이스를 활용하여 로그인/회원가입 이미지 업로드 게시글 관리 등을 할수있는 사이트</li>
-                  <li><span>관리자 로그인</span> ID:dmlwn31 PW:1234</li>
-                </div>
-              </div>
-            </div>
-           
-          </div>
-        </div>
-      
-       
-    </section>
-  
-             
-   
+6. 로그인 및 인증 정보 

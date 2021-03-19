@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Example</title>
+  <link rel="stylesheet" type="text/css" href="/portfolio/plugin/fullpage.css" />
+	<link rel="stylesheet" type="text/css" href="/portfolio/plugin/examples.css" />
+
+</head>
+<body>
+  
+  <div id="myContainer">
+  
+    <div class="section">
+      <div class="slide"><h1>Slide 1</h1><p>Use `resetSliders:true`</p></div>
+      <div class="slide"><h1>Slide 1.2</h1></div>
+      <div class="slide"><h1>Slide 1.3</h1></div>
+      <div class="slide"><h1>Slide 1.4</h1></div>
+      <div class="slide"><h1>Slide 1.5</h1></div>
+      <div class="slide"><h1>Slide 1.6</h1></div>
+    </div>
+
+
+
+    
+    <div class="section"><h1>Section 2</h1></div>
+    <div class="section">
+      <div class="slide"><h1>Section 3</h1></div>
+      <div class="slide"><h1>Slide 3.2</h1></div>
+      <div class="slide"><h1>Slide 3.3</h1></div>
+      <div class="slide"><h1>Slide 3.4</h1></div>
+    </div>
+    <div class="section"><h1>Section 4</h1></div>
+    <div class="section"><h1>Section 5</h1></div>
+    <div class="section"><h1>Section 6</h1></div>
+    <div class="section"><h1>Section 7</h1></div>
+  </div>
+  
+  <input type="hidden" id="_4" value="3" />
+  
+  <!-- WARNING!! -->
+  <!-- This file is limited. You can't use it to test the extension! It won't work. -->
+  <!-- You have to purchase it to try it as detailed in the FAQs:  -->
+  <!-- https://alvarotrigo.com/fullPage/extensions/faqs.html-->
+  <script type="text/javascript" src="/portfolio/plugin/fullpage.resetSliders.limited.min.js"></script>
+  <!-- END WARNING-->
+  
+  <script type="text/javascript" src="/portfolio/plugin/fullpage.extensions.min.js"></script>
+  <script type="text/javascript">
+    var pepe = new fullpage('#myContainer', {
+      sectionsColor: ['#eedd22', '#4BBFC3', '#7BAABE', 'whitesmoke', '#ccddff', '#ccc'],
+      anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage'],
+      menu: '#menu',
+      slidesNavigation: true,
+      resetSliders: true,
+      resetSlidersKey: 'YWx2YXJvdHJpZ28uY29tX3R0U2NtVnpaWFJUYkdsa1pYSnozZHQ=',
+      afterSlideLoad: function(section, origin, destination, direction){
+        console.log({
+          section: section,
+          origin: origin,
+          destination: destination,
+          direction: direction
+        });
+      },
+      onSlideLeave: function(section, origin, destination, direction){
+        console.log({
+          section: section,
+          origin: origin,
+          destination: destination,
+          direction: direction
+        });
+      }
+    });
+  </script>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="/portfolio/plugin/fullpage.js"></script>
+
+</body>
+</html>

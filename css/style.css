@@ -1,22 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500&display=swap');
 
 /* reset--------------------------------------------------------------------------------  */
-html,body{ margin:0; padding:0; width:100%; height:100%; font-family:'Roboto Slab';}
+html,body{ margin:0; padding:0; width:100%; height:100%; font-family:'Roboto Slab'; background:url(/portfolio/img/night.jpg) no-repeat 50% 50% ;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
 ul,li{list-style:none;}
 a{text-decoration:none; color:#000;}
 
 
 /* navigation style--------------------------------------------------------------------------------  */
+header{z-index: 999; position:fixed;}
 .nav{width:100%;height:auto; background:rgba(255,255,255,0.7); display:flex; position:fixed;}
 .nav .navTit{width:100%;  height:auto; display:flex;}
 .nav h1{margin:5px 0 5px 5%;} 
 .nav .navTit{margin-left:10%;}
-.nav .navTit .remove{color:rgb(75, 153, 255);}
 .nav .navTit li{margin-left:100px; font-size:20px; line-height:50px;}
-.nav .navTit li:hover a{color:rgb(75, 153, 255);}
-
-/* section style -------------------------------------------------------------------------------- */
-.sectionBox {width:100%; height:100%;}
 
 /* section_01 style-------------------------------------------------------------------------------- */
 #section_01{background:#FFF0F5;}
@@ -38,7 +34,8 @@ a{text-decoration:none; color:#000;}
 .mainTit{position:absolute; top:50%; left:5%; text-shadow: 1px 1px 5px hotpink; display:none;}
 .mainTit h2{font-size:100px; color:#fff; margin:0; font-weight:600;}
 .mainTit p{font-size:30px;margin:0;}
-.tree{display:none;}
+.tree{display:none; margin-bottom:300px;}
+
 /* section_02 style--------------------------------------------------------------------------------  */
 #section_02{background:#111;}
 
@@ -47,17 +44,17 @@ a{text-decoration:none; color:#000;}
 
 .profileBox{width:100%;height:auto; display:flex; color:#fff;}
 
-.profileCon1{padding-right:100px; border-right:4px solid #fff; margin-top:8%;}
-.profileCon1 .profileImg{width:100%; height:auto;   margin-left:200px; }
+.profileCon1{padding-right:100px; border-right:4px solid #fff; margin-top:8%; padding-left:50px;}
+.profileCon1 .profileImg{width:100%; height:auto;   padding-left:50px; }
 .profileCon1 .profileImg img{width:200px; height:auto;}
 
-.profileCon1 .introduce{width:100%; height:auto; margin-left:170px;}
+.profileCon1 .introduce{width:100%; height:auto; _margin-left:170px;}
 .profileCon1 .introduce .introduceTxt{color:gold; margin-top:50px;}
 .profileCon1 .introduce .introduceTxt li{margin-top:15px;}
 .profileCon1 .introduce .introduceTxt li span{margin-left:8px; color:#fff;}
 
 .career{width:100%; height:auto; display:flex; margin-top:8%;}
-.career .careerCon{color:gold; font-size:30px;}
+.career .careerCon{color:gold; font-size:30px; margin-left:50px;}
 .career .careerCon li{ font-size:18px; margin-top:30px;}
 .career .careerCon li span{color:#fff;}
 
@@ -66,18 +63,15 @@ a{text-decoration:none; color:#000;}
 .career .licenseCon li span{font-size:10px;}
 
 /* section_03 style -------------------------------------------------------------------------------- */
-.section3Box{background:url(/portfolio/img/bulb.jpg) no-repeat 50% 50% fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+#section_03{background: url(/portfolio/img/bulb.jpg) no-repeat 50% 50% ; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
 
-.portfolioTit{width:100%;height:auto;max-width: 80%; margin-left:100px; border-bottom:10px solid #fff; padding-top:100px;  }
+.portfolioTit{width:100%;height:auto;max-width: 85%; margin-left:100px; border-bottom:10px solid #fff; padding-top:100px;  }
 .portfolioTit h3{font-size:50px; margin:10px 0 1px 0; color:#fff;}
+.fp-tableCell{padding:0;}
 
-.portfolioCon{width:100%; height:auto; overflow-x: scroll; max-width: 1200px; margin:auto; -ms-overflow-style: none; /* IE and Edge */ scrollbar-width: none; /* Firefox */}
-.portfolioCon::-webkit-scrollbar { display: none; /* Chrome, Safari, Opera*/}
-.portfolioCon .Portfolioscroll{width:auto; display:flex;}
-.portfolioCon .Portfolioscroll .portfolioBox{width:1200px; height:600px; float:left; margin-bottom:20px; display:flex;margin-top:40px;}
-.portfolioCon .Portfolioscroll .portfolioBox .webImg{width:500px; height:auto;}
-.portfolioCon .Portfolioscroll .portfolioBox .webImg img{width:100%x; height:auto;}
-.portfolioCon .Portfolioscroll .portfolioBox .webConBox{width:700px; height:auto;margin-right:20px;}
+.slideBox{width:100%; height:auto; display:flex; justify-content: center; padding-top:40px;}
+.slideBox .webImg img{width:100%x; height:auto;}
+.slideBox .webConBox{width:700px; height:589px;margin-right:20px;}
 .webConBox{background:rgba(255,255,255,0.3);}
 .webConBox .webTit .webCon{color:#444; font-size:50px; padding-left:10px; margin-left:30px; font-weight: 900; padding-right:30px;}
 .webConBox .webTit .webCon li{ font-size:20px;  margin-top:42px;  font-weight:600; font-family: none;}
@@ -85,10 +79,8 @@ a{text-decoration:none; color:#000;}
 .webConBox .webBtn button{width:30%;height:40px; background:#fff; border:0; font-weight:600; font-size:20px; cursor:pointer;}
 .webConBox .webBtn button:hover{background:#444; color:#fff;}
 
-.frontBtn{position:absolute;left:87%; padding-top:300px;}
-.backBtn{position:absolute;left:5%; padding-top:300px;}
 /* section_04 style--------------------------------------------------------------------------------  */
-#section_04{background:url(/portfolio/img/night.jpg) no-repeat 50% 50% fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+#section_04{background:rgba(0, 0, 0, 0);}
 
 .otherTit{width:100%;height:auto;max-width: 80%; margin-left:100px; border-bottom:10px solid #fff; padding-top:100px;  }
 .otherTit h3{font-size:50px; margin:10px 0 1px 0; color:#fff;}
@@ -99,13 +91,13 @@ a{text-decoration:none; color:#000;}
 .otherBox .otherOverlay h3{color:#fff; text-shadow: yellow;}
 .otherBox:hover .otherOverlay{display:block;}
 .otherBox{text-align: center; margin-left:50px;}
-.otherBox h3{color:#bbb;}
-
-
-
+.otherBox h3{color:rgb(187, 187, 187);}
 
 /* section_05 style--------------------------------------------------------------------------------  */
-#section_05{background:#f6e9ff;}
+#section_05{background:rgba(255, 251, 0, 0.8);}
+
+/* section_06 style--------------------------------------------------------------------------------  */
+#section_06{background:#f6e9ff;}
 
 .contactTit{width:100%;height:auto;max-width: 80%; margin-left:100px; border-bottom:10px solid #333; padding-top:100px;  }
 .contactTit h3{font-size:50px; margin:10px 0 1px 0; color:#333;}
