@@ -34,26 +34,26 @@ header{z-index: 999; position:fixed;}
 .mainTit{position:absolute; top:50%; left:5%; text-shadow: 1px 1px 5px hotpink; display:none;}
 .mainTit h2{font-size:100px; color:#fff; margin:0; font-weight:600;}
 .mainTit p{font-size:30px;margin:0;}
-.tree{display:none; margin-bottom:300px;}
-
+.tree{ display:none; margin-bottom:300px;}
 /* section_02 style--------------------------------------------------------------------------------  */
 #section_02{background:#111;}
 
 .profile{width:100%;height:auto;max-width: 80%; margin-left:100px; border-bottom:10px solid rgb(255, 196, 0);padding-top:100px;  }
 .profile h3{font-size:50px; margin:10px 0 1px 0; color:gold;}
 
-.profileBox{width:100%;height:auto; display:flex; color:#fff;}
+.profileBox{width:100%;height:auto; display:flex; color:#fff; max-width:1500px; margin:auto;}
 
-.profileCon1{padding-right:100px; border-right:4px solid #fff; margin-top:8%; padding-left:50px;}
+.profileCon1{width:350px; height:auto; padding-right:50px; border-right:4px solid #fff; margin-top:8%; padding-left:50px;}
 .profileCon1 .profileImg{width:100%; height:auto;   padding-left:50px; }
 .profileCon1 .profileImg img{width:200px; height:auto;}
 
-.profileCon1 .introduce{width:100%; height:auto; _margin-left:170px;}
+.profileCon1 .introduce{width:350px; height:auto; _margin-left:170px;}
 .profileCon1 .introduce .introduceTxt{color:gold; margin-top:50px;}
 .profileCon1 .introduce .introduceTxt li{margin-top:15px;}
 .profileCon1 .introduce .introduceTxt li span{margin-left:8px; color:#fff;}
 
-.career{width:100%; height:auto; display:flex; margin-top:8%;}
+.profileCon2{width:1000px; height:auto;}
+.career{width:1000px; height:auto; display:flex; margin-top:8%;}
 .career .careerCon{color:gold; font-size:30px; margin-left:50px;}
 .career .careerCon li{ font-size:18px; margin-top:30px;}
 .career .careerCon li span{color:#fff;}
@@ -91,7 +91,7 @@ header{z-index: 999; position:fixed;}
 .otherBox .otherOverlay h3{color:#fff; text-shadow: yellow;}
 .otherBox:hover .otherOverlay{display:block;}
 .otherBox{text-align: center; margin-left:50px;}
-.otherBox h3{color:rgb(187, 187, 187);}
+.otherBox h3{color:#777;}
 
 /* section_05 style--------------------------------------------------------------------------------  */
 #section_05{background:rgba(255, 251, 0, 0.8);}

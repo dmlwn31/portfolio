@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500&display=swap');
+
+
+/* reset--------------------------------------------------------------------------------  */
+html,body{ margin:0; padding:0; width:100%; height:100%; font-family:'Roboto Slab'; }
+body{background:url(/portfolio/img/plan_background.jpg) no-repeat 50% 50% fixed;-webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+ul,li{list-style:none;}
+a{text-decoration:none; color:#000;}
+
+
+/* navigation style--------------------------------------------------------------------------------  */
+.nav{width:100%;height:auto;  background:rgba(255,255,255,0.5); display:flex;}
+.nav h1{margin-top:0; margin-bottom:0;padding-left:5%;}
+.nav p{margin-left:70%;}
+.nav p i{font-size:50px; color:rgb(0, 89, 255);}
+.nav p i:hover{color:rgb(129, 51, 255);}
+
+.back{margin-top:30px;padding-left:10px; position:fixed;}
+
+/* section style */
+section{width:100%; height:auto; max-width: 900px; margin:auto; background:#fff; padding:20px; margin-top:50px; _margin-bottom:500px;}
+
+/* tit style */
+.titBox{display:flex; }
+.titBox .titImg{_border:1px solid #000;}
+.titBox .titCon{font-size:30px; padding-left:50px;}
+.titBox .titCon h1{margin:0;}
+.titBox .titCon p{margin:0; color:#bbb; font-family: none; _font-size:20px;}
+.titBox button{width:250px; height:30px; font-weight: bold;}
+
+/* contants style */
+.conImg{text-align: center; margin-top:50px; padding-top:50px; padding-bottom: 50px; background:rgb(245, 245, 245);}
+
+
+.contantsBox_01 .exBox li{margin-top:20px;}
+
+.contantsBox_02{margin-top:50px;}
+.contantsBox_02 .structureBox{display:flex;}
+.contantsBox_02 .structureBox li img{margin:5px;}
+.contantsBox_02 .structureBox li img:first-child{border-bottom:1px solid #000; border-right:1px solid #000;}
+.contantsBox_02 .structureBox li img:last-child{border-top:1px solid #000; }
+
+.contantsBox_03{margin-top:50px; } 
+.contantsBox_03 .language{font-size:20px; text-align: center; margin:auto;}
+.contantsBox_03 .language tr td{padding:0 40px;}
+
+
+.login{margin-top:50px; padding-bottom: 100px;}
+.login .loginBox{display:flex;justify-content: center;}
+.login .loginBox .loginTit{padding:0 100px; margin:0;}
+.login .loginBox .loginTit li{margin-top:10px;font-size:20px;}
+
+footer{margin-top:150px; text-align: center; background:#fff; padding:20px 0;}
