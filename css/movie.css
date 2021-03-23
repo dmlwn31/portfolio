@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+
+
+/* reset--------------------------------------------------------------------------------  */
+html,body{ margin:0; padding:0; width:100%; height:100%; font-family:'Roboto Slab'; color:#fff;}
+body{background:#222;}
+ul,li{list-style:none;}
+a{text-decoration:none; color:#000;}
+
+
+/* navigation style--------------------------------------------------------------------------------  */
+.nav{width:100%;height:auto;  background:#000; display:flex; padding-top:10px;}
+.nav h1{margin-top:0; margin-bottom:0;padding-left:5%;}
+.nav p{margin-left:70%;}
+.nav p i{font-size:50px; color:rgb(0, 89, 255);}
+.nav p i:hover{color:rgb(129, 51, 255);}
+
+.back{margin-top:30px;padding-left:10px; position:fixed; z-index: 999;}
+.back a img{color:#000;}
+
+/* tit style */
+.Tit{width:100%;height:auto;max-width: 80%; margin-left:100px; border-bottom:10px solid #fff; }
+.Tit h1{font-size:50px; margin:10px 0 1px 0; color:#fff;}
+/* section style */
+section{width:100%; height:auto; background:#222; margin-top:50px;  text-align: center;}
+.movieConBox{display:flex; margin-top:80px; max-width: 1500px; margin:auto; }
+
+.conImg{width:750px; margin-right:50px;background:rgba(255,255,255,0.1);}
+.conImg img{width:230px; float:left; padding:10px;}
+
+.video{margin-top:50px;}
+
+
+
+
+
+footer{margin-top:50px; text-align: center; background:#000; padding:20px 0; color:#fff;}
