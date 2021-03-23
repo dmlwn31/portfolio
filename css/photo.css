@@ -3,7 +3,7 @@
 
 /* reset--------------------------------------------------------------------------------  */
 html,body{ margin:0; padding:0; width:100%; height:100%; font-family:'Roboto Slab'; }
-body{background:url(/portfolio/img/photobackground.jpg) no-repeat 50% 50% fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
+body{_background:url(/portfolio/img/photobackground.jpg) no-repeat 50% 50% fixed; background:#222; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;}
 ul,li{list-style:none;}
 a{text-decoration:none; color:#000;}
 

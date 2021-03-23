@@ -24,12 +24,15 @@ a{text-decoration:none; color:#000;}
 .Tit h1{font-size:50px; margin:10px 0 1px 0; color:#fff;}
 /* section style */
 section{width:100%; height:auto; background:#222; margin-top:50px;  text-align: center;}
-.movieConBox{display:flex; margin-top:80px; max-width: 1500px; margin:auto; }
+.movieConBox{width:1500px; display:flex; margin-top:80px; max-width: 1500px; margin:auto;  }
 
-.conImg{width:750px; margin-right:50px;background:rgba(255,255,255,0.1);}
-.conImg img{width:230px; float:left; padding:10px;}
+.conImg{width:750px; margin-right:50px;_background:rgba(0,0,0,0.5); padding:10px; border-right:3px solid #fff;}
+.conImg img{width:210px; float:left; padding:5px; margin:5px; display:block; border-radius: 40px; border:2px solid #fff;}
+.conImg span{font-size:30px; line-height:80px; font-weight: bold; font-family: none;  border-radius: 40px; border:2px solid #fff; padding:0 10px;color:#111; background:#fff;cursor:default;} 
+.conImg span:hover{ color:#fff; background:#111; }
 
 .video{margin-top:50px;}
+.video a{color:#fff;}
 
 
 
