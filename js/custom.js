@@ -42,14 +42,14 @@ $("#navContact").click(function () {
 $(function(){
   $('#mainBoxImg2').click(function(){
       $('.dethImg').show();
-      $('.welcomeImg').show(1500);
+      $('.welcomeImg').slideDown(2000);
       $('#mainBoxImg1').hide();
       $('#mainBoxImg2').hide();
       $('#mainBoxImg3').show();
       $('.tree').show();
       setTimeout(function () {
         
-        $('.mainTit').show(1500);
+        $('.mainTit').fadeIn(1500);
     },1000);
   })
 });

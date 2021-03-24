@@ -4,7 +4,7 @@
 
 /* reset--------------------------------------------------------------------------------  */
 html,body{ margin:0; padding:0; width:100%; height:100%; font-family:'Roboto Slab'; color:#fff;}
-body{background:#222;}
+body{background:#111;}
 ul,li{list-style:none;}
 a{text-decoration:none; color:#000;}
 
@@ -13,8 +13,8 @@ a{text-decoration:none; color:#000;}
 .nav{width:100%;height:auto;  background:#000; display:flex; padding-top:10px;}
 .nav h1{margin-top:0; margin-bottom:0;padding-left:5%;}
 .nav p{margin-left:70%;}
-.nav p i{font-size:50px; color:rgb(0, 89, 255);}
-.nav p i:hover{color:rgb(129, 51, 255);}
+.nav p i{font-size:50px; color:#fff;}
+.nav p i:hover{color:rgb(0, 89, 255);}
 
 .back{margin-top:30px;padding-left:10px; position:fixed; z-index: 999;}
 .back a img{color:#000;}
@@ -22,17 +22,23 @@ a{text-decoration:none; color:#000;}
 /* tit style */
 .Tit{width:100%;height:auto;max-width: 80%; margin-left:100px; border-bottom:10px solid #fff; }
 .Tit h1{font-size:50px; margin:10px 0 1px 0; color:#fff;}
+
+
+
 /* section style */
-section{width:100%; height:auto; background:#222; margin-top:50px;  text-align: center;}
+section{width:100%; height:auto; background:#111; margin-top:50px;  text-align: center;}
 .movieConBox{width:1500px; display:flex; margin-top:80px; max-width: 1500px; margin:auto;  }
 
-.conImg{width:750px; margin-right:50px;_background:rgba(0,0,0,0.5); padding:10px; border-right:3px solid #fff;}
+.conImg{width:750px; margin-right:50px;padding:10px; border-right:3px solid #fff;}
 .conImg img{width:210px; float:left; padding:5px; margin:5px; display:block; border-radius: 40px; border:2px solid #fff;}
 .conImg span{font-size:30px; line-height:80px; font-weight: bold; font-family: none;  border-radius: 40px; border:2px solid #fff; padding:0 10px;color:#111; background:#fff;cursor:default;} 
 .conImg span:hover{ color:#fff; background:#111; }
 
-.video{margin-top:50px;}
-.video a{color:#fff;}
+.video{margin-top:-20px; float:left;}
+.video h2{width:50%; height:auto; font-size:50px; margin-bottom:15px; margin-left:0;}
+.video p{margin:0;}
+.video a{color:#fff; float:left}
+.video div{margin-top:60px;}
 
 
 
