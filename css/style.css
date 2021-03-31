@@ -20,8 +20,7 @@ header{z-index: 999; position:fixed;}
 .mainImg{position:absolute; top:20%; left:50%; transform:translate(-50%, 0);}
 .mainImg .welcomeImg{display:none;}
 .mainImg .dethImg{text-align: center; animation:ani 0.8s infinite alternate; display:none;}
-@keyframes ani{
-0%{transform:translate(0,0);}
+@keyframes ani{0%{transform:translate(0,0);}
 100%{transform:translate(0,30px);}
 }  
 

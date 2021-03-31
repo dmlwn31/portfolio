@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200;300;400;500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
-
+@keyframes ani{
+  0%{transform:translate(0,0);}
+  100%{transform:translate(0,30px);}
+  }  
 
 /* reset--------------------------------------------------------------------------------  */
 html,body{ margin:0; padding:0; width:100%; height:100%; font-family:'Roboto Slab'; }
@@ -16,12 +19,16 @@ a{text-decoration:none; color:#000;}
 .nav p i{font-size:50px; color:rgb(0, 89, 255);}
 .nav p i:hover{color:rgb(129, 51, 255);}
 
-.back{margin-top:30px;padding-left:10px; position:fixed; z-index: 999;}
+.back{margin-top:30px;padding-left:10px; position:fixed; z-index: 999; }
 .back a img{color:#000;}
 
 
 /* section style */
 section{width:100%; height:auto; max-width: 1200px; margin:auto; background:#fff; margin-top:50px;  text-align: center;}
+
+.top{position:fixed; top:700px;  right:130px; animation:ani 0.4s infinite alternate; cursor:pointer; display:none;}
+.top img{width:70px; height:auto;}
+
 
 .headerContainer{width:100%; height:auto; background:rgb(27, 27, 61); padding:100px 0 300px 0;  }
 .headerContainer .headerBox{width: 25%; height:auto; border:3px solid #fff; margin:0 auto; font-size:25px; font-family:'Dancing script'; background:rgb(27, 27, 61); z-index: 999;}
