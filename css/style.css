@@ -55,10 +55,12 @@ header{z-index: 999; position:fixed;}
 .career{width:1000px; height:auto; display:flex; margin-top:8%;}
 .career .careerCon{color:gold; font-size:30px; margin-left:50px;}
 .career .careerCon li{ font-size:18px; margin-top:30px;}
+.career .careerCon li:first-child{font-size:30px; font-weight: bold;}
 .career .careerCon li span{color:#fff;}
 
 .career .licenseCon{color:gold; font-size:30px;}
 .career .licenseCon li{color:#fff; font-size:18px; margin-top:30px;}
+.career .licenseCon li:first-child{font-size:30px; color:gold; font-weight: bold;}
 .career .licenseCon li span{font-size:10px;}
 
 /* section_03 style -------------------------------------------------------------------------------- */
@@ -69,7 +71,7 @@ header{z-index: 999; position:fixed;}
 .fp-tableCell{padding:0;}
 
 .slideBox{width:100%; height:auto; display:flex; justify-content: center; padding-top:40px;}
-.slideBox .webImg img{width:100%x; height:auto;}
+.slideBox .webImg img{width:100%; height:auto;}
 .slideBox .webConBox{width:700px; height:589px;margin-right:20px;}
 .webConBox{background:rgba(255,255,255,0.3);}
 .webConBox .webTit .webCon{color:#444; font-size:50px; padding-left:10px; margin-left:30px; font-weight: 900; padding-right:30px;}
@@ -87,7 +89,7 @@ header{z-index: 999; position:fixed;}
 .otherContaner{display:flex; width:100%; height:auto; padding-top:150px; justify-content: center;}
 
 .otherBox .otherOverlay{position:absolute; display:none;}
-.otherBox .otherOverlay h3{color:#fff; text-shadow: yellow;}
+.otherBox .otherOverlay h3{color:#fff; text-shadow:yellow  1px 0 10px;}
 .otherBox:hover .otherOverlay{display:block;}
 .otherBox{text-align: center; margin-left:50px;}
 .otherBox h3{color:#777;}
