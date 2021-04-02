@@ -10,7 +10,7 @@ a{text-decoration:none; color:#000;}
 header{z-index: 999; position:fixed;}
 .nav{width:100%;height:auto; background:rgba(255,255,255,0.7); display:flex; position:fixed;}
 .nav .navTit{width:100%;  height:auto; display:flex;}
-.nav h1{margin:5px 0 5px 5%;} 
+.nav h1{margin:5px 0 10px 5%; font-size:0;} 
 .nav .navTit{margin-left:10%;}
 .nav .navTit li{margin-left:100px; font-size:20px; line-height:50px;}
 
@@ -74,8 +74,9 @@ header{z-index: 999; position:fixed;}
 .slideBox .webImg img{width:100%; height:auto;}
 .slideBox .webConBox{width:700px; height:589px;margin-right:20px;}
 .webConBox{background:rgba(255,255,255,0.3);}
-.webConBox .webTit .webCon{color:#444; font-size:50px; padding-left:10px; margin-left:30px; font-weight: 900; padding-right:30px;}
+.webConBox .webTit .webCon{color:#444;  padding-left:10px; margin-left:30px;  padding-right:30px;}
 .webConBox .webTit .webCon li{ font-size:20px;  margin-top:42px;  font-weight:600; font-family: none;}
+.webConBox .webTit .webCon li:first-child{font-size:50px; font-weight: 900; font-family: 'Roboto Slab';}
 .webConBox .webBtn{padding:50px;}
 .webConBox .webBtn button{width:30%;height:40px; background:#fff; border:0; font-weight:600; font-size:20px; cursor:pointer;}
 .webConBox .webBtn button:hover{background:#444; color:#fff;}
